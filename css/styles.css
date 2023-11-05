@@ -530,3 +530,6 @@ body {
 .form-button-icon {
   margin-left: 16px;
 }
+.page-footer-form-container {
+  margin-left: auto;
+}
