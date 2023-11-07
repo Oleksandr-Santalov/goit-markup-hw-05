@@ -713,19 +713,6 @@ body {
   cursor: pointer;
 }
 
-.modal-form-btn {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .pryvacy-policy-link {
   color: #4d5ae5;
 }
@@ -742,4 +729,23 @@ body {
   + .modal-form-checkbox-label
   .modal-form-own-checkbox {
   outline: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.modal-form-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  text-align: center;
+  padding: 16px 32px;
+  margin: 0 auto;
 }
