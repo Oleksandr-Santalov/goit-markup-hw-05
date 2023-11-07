@@ -730,6 +730,10 @@ body {
   color: #4d5ae5;
 }
 
-/* .modal-form-checkbox: checked + .modal-form-checkbox-label {
-
-} */
+.modal-form-checkbox:checked
+  + .modal-form-checkbox-label
+  .modal-form-own-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
