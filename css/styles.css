@@ -737,3 +737,9 @@ body {
   border: none;
   fill: #f4f4fd;
 }
+
+.modal-form-checkbox:focus
+  + .modal-form-checkbox-label
+  .modal-form-own-checkbox {
+  outline: 2px solid rgba(0, 0, 255, 0.5);
+}
