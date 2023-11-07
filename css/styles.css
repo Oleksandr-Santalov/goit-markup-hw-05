@@ -710,6 +710,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  cursor: pointer;
 }
 
 .modal-form-btn {
@@ -725,3 +726,10 @@ body {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.pryvacy-policy-link {
+  color: #4d5ae5;
+}
+
+/* .modal-form-checkbox: checked + .modal-form-checkbox-label {
+
+} */
